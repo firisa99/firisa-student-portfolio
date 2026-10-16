@@ -4,28 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firisa | My Portfolio</title>
+
+    <title>Firisa | Software Engineering Student</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, I'm Firisa!</h1>
 
-    <h2>Software Engineering Student</h2>
+    <nav>
+        <h2>Firisa.dev</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-    <p>
-        I am a Software Engineering student
-        at Jimma University, Ethiopia.
-    </p>
+    <header class="hero">
+        <div class="hero-content">
+            <p>HELLO, WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Firisa!</span></h1>
+            <h2>Software Engineering Student</h2>
 
-    <h2>My Goals</h2>
-    <ul>
-        <li>Learn programming</li>
-        <li>Build useful software</li>
-        <li>Become a professional software engineer</li>
-    </ul>
+            <p>
+                I study Software Engineering at Jimma University,
+                Ethiopia. I'm passionate about technology,
+                programming, and building useful software.
+            </p>
 
-    <h2>My First Project</h2>
-    <p>This is my first project published on GitHub.</p>
+            <a class="btn"
+               href="https://github.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Visit GitHub
+            </a>
+        </div>
 
-    <p>Thank you for visiting my portfolio!</p>
+        <img
+            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80"
+            alt="Profile portrait placeholder">
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about">
+            <p>
+                I am Firisa, a Software Engineering student
+                at Jimma University. I enjoy learning programming,
+                exploring web development, and improving my
+                problem-solving skills. My goal is to become
+                a professional software engineer and create
+                technology that makes a difference.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Learning Journey</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="icon">💻</div>
+                <h3>Programming</h3>
+                <p>Learning programming fundamentals.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Exploring HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🧠</div>
+                <h3>Problem Solving</h3>
+                <p>Developing logical thinking skills.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🚀</div>
+                <h3>Software Projects</h3>
+                <p>Building projects as I learn.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-card">
+            <h3>My Personal Portfolio</h3>
+            <p>
+                My first web development project, built with
+                HTML and CSS and published on GitHub.
+            </p>
+            <br>
+            <a class="btn"
+               href="https://github.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Explore GitHub
+            </a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>Thank you for visiting my portfolio!</p>
+
+        <a class="btn"
+           href="https://github.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Find Me on GitHub
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Firisa | Software Engineering Student</p>
+        <p>Jimma University, Ethiopia</p>
+    </footer>
+
 </body>
 </html>
